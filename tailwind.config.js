@@ -24,6 +24,9 @@ module.exports = {
       fontFamily: {
         manrope: ['"Manrope"', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'paper-cover': "url('../assets/bg.jpg')",
+      }
     },
   },
   plugins: [require("daisyui")],

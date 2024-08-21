@@ -1120,7 +1120,7 @@
         >
           <!-- Card1 -->
           <div
-            class="flex flex-col items-center justify-center gap-6 rounded-2xl border border-gray-1 p-6 lg:col-span-9 lg:flex-row"
+            class="flex flex-col items-center justify-center w-full gap-6 rounded-2xl border border-gray-1 p-6 lg:col-span-9 lg:flex-row"
           >
             <!-- Card Img -->
             <div>
@@ -1132,7 +1132,7 @@
                 Commercial
               </h3>
               <p
-                class="description !mx-0 !text-center lg:min-h-20 lg:!text-left"
+                class="description !mx-0 !text-center !max-w-xl lg:min-h-20 lg:!text-left"
               >
                 The barn house captivates with its blend of rustic charm and
                 modern. The barn house captivates with its blend of rustic charm
@@ -1262,12 +1262,13 @@
         </div>
       </section>
       <!-- Extra Section Testimonials -->
-      <section class="wrapper my-24">
+      <section class="py-24 pb-32 bg-primary-bg">
+        <div class="wrapper">
         <h2 class="title text-center">Testimonials</h2>
         <!-- Cards Container -->
         <div class="flex flex-wrap gap-12 justify-center items-center mt-6">
           <!-- Card1 -->
-          <div class="max-w-md space-y-4 rounded-2xl bg-primary-bg p-8 pb-16 relative grow shrink-0 basis-72">
+          <div class="max-w-md space-y-4 rounded-2xl bg-white p-8 pb-16 relative grow shrink-0 basis-72">
             <!-- Content -->
             <div class="space-y-4">
               <p class="description text-center">
@@ -1287,7 +1288,7 @@
             </div>
           </div>
           <!-- Card2 -->
-          <div class="max-w-md space-y-4 rounded-2xl bg-primary-bg p-8 pb-16 relative grow shrink-0 basis-72">
+          <div class="max-w-md space-y-4 rounded-2xl bg-white p-8 pb-16 relative grow shrink-0 basis-72">
             <!-- Content -->
             <div class="space-y-4">
               <p class="description text-center">
@@ -1307,7 +1308,7 @@
             </div>
           </div>
           <!-- Card3 -->
-          <div class="max-w-md space-y-4 rounded-2xl bg-primary-bg p-8 pb-16 relative grow shrink-0 basis-72">
+          <div class="max-w-md space-y-4 rounded-2xl bg-white p-8 pb-16 relative grow shrink-0 basis-72">
             <!-- Content -->
             <div class="space-y-4">
               <p class="description text-center">
@@ -1327,7 +1328,7 @@
             </div>
           </div>
           <!-- Card4 -->
-          <div class="max-w-md space-y-4 rounded-2xl bg-primary-bg p-8 pb-16 relative grow shrink-0 basis-72">
+          <div class="max-w-md space-y-4 rounded-2xl bg-white p-8 pb-16 relative grow shrink-0 basis-72">
             <!-- Content -->
             <div class="space-y-4">
               <p class="description text-center">
@@ -1346,7 +1347,73 @@
               </div>
             </div>
           </div>
+        </div>
       </section>
+      <!-- Contact Section -->
+       <section class="bg-paper-cover bg-no-repeat bg-cover bg-center py-10 lg:py-24">
+        <div class="wrapper">
+          <!-- Content -->
+           <div class="space-y-6">
+            <!-- Button -->
+            <div class="flex justify-center">
+              <button class="btn-2 !bg-primary-light text-gray-4">
+                <svg
+                  width="19"
+                  height="18"
+                  viewBox="0 0 19 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.071 8.6489H1.51467"
+                    stroke="#494949"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M13.4425 3.7921C13.4425 3.7921 17.7618 7.43979 17.7619 8.64888C17.7618 9.85791 13.4425 13.5056 13.4425 13.5056"
+                    stroke="#494949"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Let's Connect
+              </button>
+            </div>
+            <h2 class="title text-center">Let’s Discuss Next Project</h2>
+            <p class="description text-center !max-w-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+           </div>
+           <!-- Contact Form -->
+            <div class="mt-8">
+              <form class="grid lg:grid-cols-2 gap-6">
+                <div>
+                  <input class="w-full p-5 rounded-[4rem] focus:outline-2 outline-primary-hover text-gray-5 placeholder:text-gray-2" type="text" placeholder="First Name*">
+                </div>
+                <div>
+                  <input class="w-full p-5 rounded-[4rem] focus:outline-2 outline-primary-hover text-gray-5 placeholder:text-gray-2" type="text" placeholder="Last Name*">
+                </div>
+                <div>
+                  <input class="w-full p-5 rounded-[4rem] focus:outline-2 outline-primary-hover text-gray-5 placeholder:text-gray-2" type="text" placeholder="Phone Number*">
+                </div>
+                <div>
+                  <input class="w-full p-5 rounded-[4rem] focus:outline-2 outline-primary-hover text-gray-5 placeholder:text-gray-2" type="text" placeholder="Email*">
+                </div>
+                <div class="lg:col-span-2">
+                  <textarea class="w-full p-5 rounded-[2rem] focus:outline-2 outline-primary-hover text-gray-5 placeholder:text-gray-2 resize-none" rows="10" placeholder="Write your message here"></textarea>
+                </div>
+                <div class="lg:col-span-2 place-self-center">
+                  <button class="btn flex gap-2 items-center !text-xl ">Send Message <svg width="24" height="25" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.00537109" y="0.268616" width="32" height="32" rx="16" transform="rotate(0.019056 0.00537109 0.268616)" fill="#1C1C1C"/>
+                    <path d="M21.0017 11.2756L9.99805 22.2719" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M15.002 10.4051C15.002 10.4051 20.6356 9.93208 21.4903 10.7873C22.345 11.6425 21.8681 17.2759 21.8681 17.2759" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </button>
+                </div>
+              </form>
+            </div>
+        </div>
+       </section>
     </main>
   </body>
 </html>
