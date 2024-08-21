@@ -15,4 +15,10 @@
   .center {
     @apply relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
   }
+  .heading {
+    @apply text-3xl sm:text-4xl lg:text-[4rem] font-extrabold;
+  }
+  .description {
+    @apply mx-auto max-w-4xl text-sm leading-6 sm:text-base font-medium lg:leading-7;
+  }
 }
