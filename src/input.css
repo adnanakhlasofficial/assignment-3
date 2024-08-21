@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply h-auto w-auto rounded-[2rem] border-none bg-primary px-5 py-3 text-lg text-gray-6 hover:bg-primary-hover;
+  }
+}
+
+@layer utilities {
+  .wrapper {
+    @apply container mx-auto w-11/12 lg:w-3/4;
+  }
+  .center {
+    @apply relative left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+}
